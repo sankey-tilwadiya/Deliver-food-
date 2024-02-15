@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-bottom:1px solid #b6b1b1 ;
+}
+.nav-home{
+    height: 69px;
+
+}
+.nav-bar{
+    display: flex;
+/* justify-content: space-between; */
+min-width: 500px;
+justify-content: space-evenly;
+
+}
+/* .menu_name{
+cursor: pointer;
+} */
+.nav-bar a{
+color: black;
+text-decoration: none;
+
+/* justify-content: space-between; */
+
+
+}
+.nav-bar a:hover{
+    border-bottom: 4px solid red;
+    
+}
+
+.nav-search{
+height: 40px;
+display: flex;
+align-items: center;
+min-width: 200px;
+width: 30%;
+
+}
+.search-icon{
+    box-sizing: content-box;
+height: 20px;
+background-color: #f5f5f6;
+padding: 10px;
+border-radius:4px 0 0 4px;
+}
+.search_input{
+    color: #696e79;
+background-color: #f5f5f6;
+flex-grow: 1;
+height:40px;
+border: 0;
+border-radius: 0 4px 4px 0;
+}
+.action-bar{
+    display: flex;
+justify-content: space-evenly;
+min-width:200px ;
+
+}
+.action-container{
+flex-direction: column;
+display: flex;
+align-items: center;
+} 
+/* main{
+    /* width: 70%; */
+    /* margin-left: 15%; */
+/* } */ 
+.items_container{
+/* display: flex; */
+width:80% ;
+margin-left: 10%;
+/* margin: 50px 10px; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+/* padding-right:25px ; */
+
+}
+.item_container{
+   width: 25%;
+   /* display: flex; */
+   margin-bottom: 15px;
+padding-right:25px ;
+
+}
+
+.item_name{
+width: 100%;
+height: 225px;
+
+}
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+}
+.price{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+}
+.company_name{
+font-size: 16px;
+font-weight: 700;
+line-height: 1;
+color: #282c3f;
+margin-bottom: 6px;
+overflow:hidden ;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.discount_percentage{
+    color: #d24905;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.current_price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.original_price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.add_btn{
+background-color: rgb(213, 218, 214);
+margin-top: 8px;
+    font-size: 18px;
+    width: 100%;
+    /* background-color: lightgreen; */
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bag-item-count {
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.action-container {
+    text-decoration: none;
+}
+a.action-container:link {
+    color:black;
+}
+
+footer{
+    width: 75%;
+    margin-left: 12.5%;
+}
+.foot-container{
+color:  #93959f;
+background-color: #e5e8ec;
+width: 1150px;
+display: flex;
+align-items: center;
+/* justify-content: center; */
+margin-top: 10px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+margin: 10px;
+padding-bottom: 10px;
+border-bottom: 1px solid #bab1b1;
+width: 1125px;
+}
+.foot-address{
+    width: 1150px;
+background-color: #e5e8ec;
+color:  #93959f;
+height: 200px;
+
+}
+.branch-name{
+    display: flex;
+    align-items: center;
+margin-left: 10px;
+/* padding-bottom: 10px; */
+/* border-bottom: 1px solid #746e6e; */
+width: 1125px;
+font-weight: bold;
+font-size: 14px;
+}
+.branch-address{
+    display: flex;
+    align-items: center;
+margin-left: 10px;
+/* padding-bottom: 10px; */
+/* border-bottom: 1px solid #746e6e; */
+width: 1125px;
+/* font-weight: bold; */
+font-size: 14px;
+}
+.branchfull-address{
+    display: flex;
+    align-items: center;
+margin-left: 10px;
+/* padding-bottom: 10px; */
+/* border-bottom: 1px solid #746e6e; */
+width: 1125px;
+/* font-weight: bold; */
+font-size: 14px;
+}
+
+
